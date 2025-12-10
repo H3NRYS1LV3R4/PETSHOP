@@ -12,6 +12,7 @@ public class Producto {
     private String descripcion;
     private Double precio;
     private Integer stock;
+    @Column(name = "imagen_url", length = 1000)
     private String imagenUrl;
 
     public Producto() {
